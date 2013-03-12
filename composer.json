@@ -1,0 +1,26 @@
+{
+    "name": "noovias/ext.magento.noovias.extensions",
+    "version": "0.1.1",
+    "type": "magento-module",
+    "description":"Noovias_Extensions",
+    "license":"OSL-3.0",
+
+    "require": {
+        
+    },
+
+    "minimum-stability":"dev",
+    "config": {
+        "vendor-dir": "Packages"
+    },
+
+    "extra":{
+        "magento-root-dir":"Source-Magento",
+        "skip-package-deployment": true
+    },
+
+    "repositories": [
+        { "type":"composer", "url":"http://packages.noovias.com" },
+        { "packagist":false }
+    ]
+}

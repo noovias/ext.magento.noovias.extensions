@@ -1,0 +1,7 @@
+Source/app/code/local/Noovias/Extensions/                           	app/code/local/Noovias/Extensions
+Source/app/design/adminhtml/default/default/layout/noovias/extensions.xml   app/design/adminhtml/default/default/layout/noovias/extensions.xml
+Source/app/design/adminhtml/default/default/template/noovias/extensions app/design/adminhtml/default/default/template/noovias/extensions
+Source/app/etc/modules/Noovias_Extensions.xml                           app/etc/modules/Noovias_Extensions.xml
+Source/app/locale/de_DE/Noovias_Extensions.csv                          app/locale/de_DE/Noovias_Extensions.csv
+Source/skin/adminhtml/default/default/noovias/extensions.css            skin/adminhtml/default/default/noovias/extensions.css
+Source/skin/adminhtml/default/default/noovias/images/noovias_logo.ico  	skin/adminhtml/default/default/noovias/images/noovias_logo.ico
