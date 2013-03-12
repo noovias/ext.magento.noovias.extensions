@@ -49,6 +49,9 @@ class Noovias_Extensions_Model_Factory
     /** @var Noovias_Extensions_Helper_Config */
     protected $helperConfig = null;
 
+    /** @var null */
+    protected $storeId = null;
+
     /**
      * @param $configPath string path to a Magento config, e.g. namespace_module_section, it should contain at least values for "to", "copy_to", "from" and "template"
      * @return Noovias_Extensions_Model_Service_Email_Send
@@ -107,6 +110,7 @@ class Noovias_Extensions_Model_Factory
         {
             $this->helperConfig = Mage::helper('noovias_extensions/config');
         }
+        $this->helperConfig->setStoreId($this->storeId);
         return $this->helperConfig;
     }
 
@@ -118,5 +122,22 @@ class Noovias_Extensions_Model_Factory
     {
         $this->helper = $helper;
     }
+
+    /**
+     * @param $storeId
+     */
+    public function setStoreId($storeId)
+    {
+        $this->storeId = $storeId;
+    }
+
+    /**
+     * @return null
+     */
+    public function getStoreId()
+    {
+        return $this->storeId;
+    }
+
 
 }

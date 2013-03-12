@@ -31,7 +31,7 @@
  * @link	    http://www.noovias.com
  */
 -->
-<layout version="${version}">
+<layout version="0.1.1">
 	<default>
 		<reference name="head">
 			<action method="addCss">

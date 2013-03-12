@@ -34,7 +34,7 @@
 <config>
 	<modules>
 		<Noovias_Extensions>
-			<version>${version}</version>
+			<version>0.1.1</version>
 		</Noovias_Extensions>
 	</modules>
 	<admin>
